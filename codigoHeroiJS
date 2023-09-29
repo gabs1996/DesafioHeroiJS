@@ -1,0 +1,24 @@
+let nome = "Gabriel";
+let nivel = ""; 
+
+for (let pontosxp = 0; pontosxp <= 10500; pontosxp += 500) {
+  if (pontosxp < 1000) {
+    nivel = "Ferro";
+  } else if (pontosxp <= 2000) {
+    nivel = "Bronze";
+  } else if (pontosxp <= 5000) {
+    nivel = "Prata";
+  } else if (pontosxp <= 7000) {
+    nivel = "Ouro";
+  } else if (pontosxp <= 8000) {
+    nivel = "Platina";
+  } else if (pontosxp <= 9000) {
+    nivel = "Ascendente";
+  } else if (pontosxp <= 10000) {
+    nivel = "Imortal";
+  } else {
+    nivel = "Radiante";
+  }
+}
+
+console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
